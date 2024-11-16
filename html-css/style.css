@@ -1,0 +1,59 @@
+h1 {
+    color: green;
+}
+.paragrafo-tipo-2 {
+    color: darkslategray;
+}
+
+p {
+    color: blue;
+}
+
+#titolo-h4 {
+    font-size: 50px;
+}
+
+.container {
+    background-color: lightgray;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 20px;
+    z-index: 0;
+}
+
+/* position */
+.container-2 {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    z-index: 1;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 20px;
+}
+
+/* display flex */
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 2000px;
+}
+.box {
+    background-color: green;
+    width: 10px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+
+
+
