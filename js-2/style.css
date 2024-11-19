@@ -1,0 +1,11 @@
+.container {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+    transform: translateX(100px);
+}
+
+.container:hover {
+    transform: translateX(200px);
+}
